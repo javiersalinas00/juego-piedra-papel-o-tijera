@@ -1,7 +1,7 @@
 var myArray = ['Piedra', 'Papel', 'Tijera'];
 var computador = myArray[(Math.random() * myArray.length)];
 //console.log(computador);
-var opcionJugador = prompt('Elije: Piedra papel o Tijera!');
+var opcionJugador = prompt('Elije: Piedra, papel o Tijera!');
 if (computador === opcionJugador) {
     console.log("Empate!");
 }if ( computador == 'Piedra' && opcionJugador == 'Tijera' ) {
