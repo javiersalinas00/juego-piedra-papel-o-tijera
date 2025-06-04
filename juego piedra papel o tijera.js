@@ -20,4 +20,7 @@ if (computador === opcionJugador) {
     console.log("Ganó Piedra");
 }if ( computador == opcionJugador ) {
     console.log("Empate!");
+}
+else {
+    console.log("Prueba nuevamente")
 };
